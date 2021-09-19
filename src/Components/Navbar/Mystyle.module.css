@@ -1,0 +1,52 @@
+
+
+@media screen and (min-width: 601px) {
+.navbar{
+    background-color: rgb(36, 115, 219);
+    font-weight:500 !important;
+    position: sticky;
+    box-shadow: 5px 10px 5px grey;
+    width: 100%;
+
+}
+.container{
+    font-weight:700 !important;
+    color: white !important;
+}
+
+.icon{
+    font-size:x-large;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: white !important;
+}
+}
+
+@media screen and (max-width: 600px) {
+
+    .navbar{
+        background-color: rgb(36, 115, 219);
+        
+        position: sticky;
+        box-shadow: 5px 10px 5px grey;
+        width: 100%;
+    }
+
+    .container{
+        font-weight:700 !important;
+        color: white !important;
+    }
+    
+    .icon{
+        font-size:x-large;
+        color: white;
+    }
+
+    .link{
+        text-decoration: none;
+        color: white !important;
+    }
+
+}
